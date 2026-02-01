@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h2 class="logo">JobPortal</h2>
+        <ul id="navLinks">
+          <!-- links will be injected by JS -->
+        </ul>
+    </div>
+    
+    <h2 class="center">My Profile</h2>
+
+    <div class="form-box">
+        <input type="text" id="pname" placeholder="Full Name">
+        <input type="text" id="skills" placeholder="Skills (comma separated)">
+        <input type="text" id="projects" placeholder="Projects">
+        <input type="text" id="github" placeholder="GitHub Link">
+        <input type="text" id="linkedin" placeholder="LinkedIn Link">
+
+        <button onclick="saveProfile()">Save Profile</button>
+    </div>
+
+    <h3 class="center">Profile Preview</h3>
+    <div id="profileView" class="profile-box"></div>
+
+    <script src="js/profile.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html>

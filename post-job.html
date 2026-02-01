@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post Job</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h2 class="logo">JobPortal</h2>
+        <ul id="navLinks">
+          <!-- links will be injected by JS -->
+        </ul>
+    </div>
+    <h2 class="center">Post a Job</h2>
+
+    <div class="form-box">
+        <input type="text" id="title" placeholder="Job Title">
+        <input type="text" id="company" placeholder="Company Name">
+        <input type="text" id="location" placeholder="Job Location">
+        <input type="text" id="skills" placeholder="Required Skills">
+
+        <button onclick="postJob()">Post Job</button>
+    </div>
+
+    <script src="js/jobs.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html>

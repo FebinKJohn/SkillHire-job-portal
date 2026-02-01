@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Available Jobs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h2 class="logo">JobPortal</h2>
+        <ul id="navLinks">
+          <!-- links will be injected by JS -->
+        </ul>
+    </div>
+
+    <h2 class="center">Available Jobs</h2>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search by title, skill, or location">
+    </div>
+    
+    <h3 class="center">Recommended for You</h3>
+    <div id="recommendedJobs" class="job-container"></div>
+
+    <hr style="width:80%; margin:30px auto;">
+
+    <h3 class="center">All Jobs</h3>
+    <div id="jobList" class="job-container"></div>
+    <div id="applyMessage"></div>
+    
+    
+    <script src="js/jobs.js"></script>
+    <script src="js/navbar.js"></script>
+    
+
+</body>
+</html>
