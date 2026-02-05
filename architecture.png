@@ -1,0 +1,13 @@
+User (Browser)
+     |
+     v
+HTML Pages (UI)
+(index, login, jobs, profile, etc.)
+     |
+     v
+JavaScript Logic Layer
+(auth.js, jobs.js, recruiter.js, profile.js)
+     |
+     v
+LocalStorage (Data Layer)
+(users, jobs, applications, profiles)
